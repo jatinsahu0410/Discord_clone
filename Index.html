@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord clone by Jatin Sahu</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class="bg-white relative w-full overflow-x-hidden h-[100%]">
+        <!-- navigation bar -->
+        <nav class="w-full top-0 fixed z-40 bg-[#404eed]">
+            <div
+                class="max-w-[1200px] mx-auto h-[72px] flex items-center xl:px-0 justify-between relative py-5 px-7">
+                <!-- logo -->
+                <a href="Index.html" class="cursor-pointer ml-7"><img src="./images/logo.svg" width="124"
+                        height="34"></a>
+                <!-- list section -->
+                <ul class="xl:flex hidden flex-row font-ggsans space-x-5">
+                    <li class="relative text-white cursor-pointer font-semibold">
+                        <a href="#" class="hover:underline">Download</a>
+                    </li>
+                    <li class="relative text-white cursor-pointer font-semibold">
+                        <a href="#" class="hover:underline">Nitro</a>
+                    </li>
+                    <li class="relative text-white cursor-pointer font-semibold">
+                        <a href="#" class="hover:underline">Discover</a>
+                    </li>
+                    <li class="relative text-white cursor-pointer font-semibold">
+                        <a href="#" class="hover:underline">Safety</a>
+                    </li>
+                    <li class="relative text-white cursor-pointer font-semibold">
+                        <a href="#" class="hover:underline">Support</a>
+                    </li>
+                    <li class="relative text-white cursor-pointer font-semibold">
+                        <a href="#" class="hover:underline">Blog</a>
+                    </li>
+                    <li class="relative text-white cursor-pointer font-semibold">
+                        <a href="#" class="hover:underline">Careers</a>
+                    </li>
+                </ul>
+                <!-- button section -->
+                <div class="hidden xl:flex">
+                    <a href="#">
+                        <button
+                            class="bg-white font-semibold text-blue-400 rounded-3xl px-4 py-2 hover:border hover:border-white hover:text-white hover:bg-blue-400 transition-all duration-200 hover:scale-x-105">
+                            Open Discord
+                        </button>
+                    </a>
+                </div>
+                <!-- hamburger icon -->
+                <div class="xl:hidden flex">
+                    <i class="fa-solid fa-bars text-white w-[32px]"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero section-->
+        <section class="w-full relative bg-[#404eed]">
+            <img src="./images/Image0.svg" class=" absolute w-full h-full object-cover">
+            <img src="./images/Image1.svg" class=" absolute bottom-0 -right-48 xl:block hidden">
+            <img src="./images/Image2.svg" class=" absolute bottom-0 -left-56 xl:block hidden">
+            <!-- container -->
+            <div class="relative mx-auto w-11/12 max-w-[900px] pt-36 mt-8 flex flex-col items-center">
+                <h1 class="uppercase text-white font-serif font-extrabold text-6xl mx-auto text-center">IMAGINE A
+                    PLACE...</h1>
+                <p class="text-center text-white leading-[1.5] font-ggsans w-[90%] md-[70%] pt-10 text-xl">...where you can belong to a school club,
+                    a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time
+                    together. A place that makes it easy to talk every day and hang out more often.</p>
+                <!-- button section -->
+                <div class="md:flex xl:flex hidden xl:flex-row md:flex-col pt-8 mb-44 hover:text-blue-600 gap-8">
+                    <button class="flex items-center justify-around text-xl bg-white rounded-3xl px-6 py-4 mr-2">
+                        <i data-feather="download" class="text-black ml-2 mr-2"></i>
+                        Download for Windows
+                    </button>
+                    <button class="text-xl bg-black text-white rounded-3xl px-6 py-4 ">
+                        Open Discord in your browser
+                    </button>
+                </div>
+
+                <!-- mobile  -->
+                <div class="flex md:hidden xl:hidden mt-8 mb-32 bg-white rounded-3xl px-6 py-4">
+                    <button class="text-center mx-auto font-Ginto font-semibold hover:text-blue-600 ">Download form Google Play</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-2 -->
+        <section class="relative w-full">
+            <div
+                class="w-11/12 max-w-[1200px] mx-auto relative mt-20 pt-12 pb-12 mb-20 md:flex-row flex-col flex items-center justify-between">
+                <!-- left part -->
+                <img src="./images/section1Image.svg" class="w-440px">
+                <!-- Rifht Part -->
+                <div class="max-w-[360px] text-left">
+                    <h2 class="text-black font-extrabold text-[36px] font-serif">Create an invite-only place where you
+                        belong</h2>
+                    <p class="text-gray-600 font-serif text-xl pt-8">
+                        Discord servers are organized into topic-based channels where you can collaborate, share, and
+                        just talk about your day without clogging up a group chat.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-3 -->
+        <section class="bg-[#c3c5c760] relative w-full">
+            <div class="w-11/12 max-w-[1080px] mx-auto flex md:flex-row flex-col-reverse items-center justify-between pt-32 pb-32 mb-8">
+                <!-- left part -->
+                <div class="max-w-[360px] text-left">
+                    <h2 class="text-black font-extrabold text-[36px] font-serif">Where hanging out is easy</h2>
+                    <p class="text-gray-600 font-serif text-xl pt-8">
+                        Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around
+                        and instantly pop in to talk without having to call.
+                    </p>
+                </div>
+                <!-- right part -->
+                <img src="./images/section2Image.svg" class="w-440px">
+            </div>
+        </section>
+
+        <!-- section -4 -->
+        <section class="relative w-full">
+            <div class="w-11/12 max-w-[1080px] mx-auto relative mt-32 pt-8 pb-32 flex md:flex-row flex-col items-center justify-between">
+                <!-- left part -->
+                <img src="./images/section3Image.svg" class="w-440px">
+                <!-- Rifht Part -->
+                <div class="max-w-[360px] text-left">
+                    <h2 class="text-black font-extrabold text-[36px] font-serif">From few to a fandom</h2>
+                    <p class="text-gray-600 font-serif text-xl pt-8">
+                        Get any community running with moderation tools and custom member access. Give members special
+                        powers, set up private channels, and more.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-5 -->
+        <section class="bg-[#c3c5c760] relative w-full">
+            <div
+                class="font-serif relative w-11/12 max-w-[1180px] mx-auto pt-28 flex flex-col items-center justify-between">
+                <div class="max-w-[980px] w-full">
+                    <h2 class="font-extrabold text-[38px] text-center">
+                        RELIABLE TECH FOR STAYING CLOSE
+                    </h2>
+                    <p class="text-gray-600 font-serif text-xl pt-8 text-center pb-4">
+                        Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch
+                        friends stream their games, or gather up and have a drawing session with screen share.
+                    </p>
+                </div>
+                <img src="./images/section4Image.svg" class="w-full object-cover mt-[16px] mb-[16px] pb-[32px]">
+                <img src="./images/section5Image.svg" class="w-fit">
+                <p class="text-3xl font-bold text-black text-center -mt-4 mb-12">Ready to start your journey?</p>
+                <div class="pb-12 hidden md:block">
+                    <button
+                        class="flex items-center space-x-2 text-xl font-semibold text-white rounded-3xl py-3 px-6 bg-blue-700 hover:scale-105 hover:text-blue-600 hover:bg-white hover:border hover:border-blue-600 transition-all duration-200">
+                        <i data-feather="download"></i>
+                        <span>Download from Windows </span>
+                    </button>
+                </div>
+                <!-- mobile phone -->
+                <div class="pb-12 md:hidden flex">
+                    <button
+                        class="flex items-center space-x-2 text-lg text-white rounded-3xl py-3 px-6 bg-blue-700 hover:scale-105 hover:text-blue-600 hover:bg-white hover:border hover:border-blue-600 transition-all duration-200">
+                        <i data-feather="download"></i>
+                        <span>Download form Google Play</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <footer>
+            
+        </footer>
+
+    </div>
+
+    <script>
+        feather.replace()
+    </script>
+    <script src="https://kit.fontawesome.com/5ac6b3b829.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
